@@ -55,11 +55,16 @@
   transition: 0.3s;
 }
 
+.about-skill:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 .about-skill p {
   min-width: 150px;
   font-size: 24px;
   font-weight: 500;
 }
+
 
 .about-skill hr {
   outline: none;
@@ -97,11 +102,6 @@
 .about-achievement p {
   font-size: 22px;
   font-weight: 500;
-}
-
-.about-skill:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
 }
 
 .about-achievement:hover {

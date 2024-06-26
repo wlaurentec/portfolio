@@ -33,8 +33,8 @@ const About = () => {
               <hr style={{ width: "50%" }} />
             </div>
             <div className="about-skill">
-              <p>JacaScript JS</p>
-              <hr style={{ width: "50%" }} />
+              <p>JavaScript JS</p>
+              <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
               <p>Next Js</p>

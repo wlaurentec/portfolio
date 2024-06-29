@@ -12,16 +12,16 @@
 }
 
 .services-title h1 {
-padding: 0px 30px;
-font-size: 80px;
-font-weight: 600; 
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .services-title img {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -1
+  z-index: -1;
 }
 
 .services-format {
@@ -51,7 +51,7 @@ font-weight: 600;
 .services-format h2 {
   font-size: 38px;
   font-weight: 800;
-  background: linear-gradient(270deg, #DF8908 0.36%, #B415ff 100%);
+  background: linear-gradient(270deg, #df8908 0.36%, #b415ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -76,4 +76,39 @@ font-weight: 600;
   background-image: linear-gradient(45deg, #3f0028 0%, #582300 100%);
   transform: scale(1.05);
   transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .services {
+    align-items: start;
+    gap: 70px;
+    margin: 20px 70px;
+  }
+  .services-title h1 {
+    padding: 0;
+    font-size: 50px;
+  }
+  .services-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+  .services-format {
+    gap: 20px;
+    padding: 32px;
+  }
+  .services-format h2 {
+    font-size: 28px;
+  }
+  .services-format p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+  }
+  .services-format img {
+    width: 20px;
+  }
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }

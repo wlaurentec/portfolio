@@ -48,9 +48,6 @@ const Contact = () => {
               <img src={mail_icon} alt="" /> <p>alter@daringen.com</p>
             </div>
             <div className="contact-detail">
-              <img src="" alt="" />
-            </div>
-            <div className="contact-detail">
               <img src={call_icon} alt="" /> <p>123 456 7890</p>
             </div>
             <div className="contact-detail">
